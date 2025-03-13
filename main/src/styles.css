@@ -2,22 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 🔥 Background - Dynamic, Subtle Glow */
+/* Background - Dynamic, Subtle Glow */
 body {
   @apply bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white min-h-screen;
 }
 
-/* 🟡 Headings - Glowing Text */
+/* Headings - Glowing Text */
 h1 {
   @apply text-5xl font-extrabold tracking-wide text-yellow-400 drop-shadow-[0_0_15px_rgba(255,215,0,0.6)];
   animation: neon-flicker 1.5s infinite alternate;
 }
 
+/* Headings - Glowing Text */
 h2 {
   @apply text-3xl font-bold tracking-wide text-gray-200 mb-4;
 }
 
-/* 🎇 Navbar Links - Underline Hover & Glow */
+/* Navbar Links - Underline Hover & Glow */
 nav a {
   @apply text-lg font-semibold tracking-wide relative transition duration-300 ease-in-out;
 }
@@ -35,7 +36,7 @@ nav a:hover::after {
   @apply text-yellow-400 border-b-2 border-yellow-400;
 }
 
-/* 🎭 Buttons - Neon Glow & Hover Effects */
+/* Buttons - Neon Glow & Hover Effects */
 .btn {
   @apply px-6 py-2 rounded-lg text-lg font-semibold transition-all duration-300 relative overflow-hidden;
 }
@@ -53,18 +54,18 @@ nav a:hover::after {
   @apply opacity-50;
 }
 
-/* 🚀 Cards - 3D Floating Effect */
+/* Cards - 3D Floating Effect */
 .card {
   @apply bg-gray-800 p-6 rounded-xl shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-yellow-500;
 }
 
-/* ✨ Footer Icons - Floating Hover Effect */
+/* Footer Icons - Floating Hover Effect */  
 .footer-icon {
   @apply text-2xl transition-transform duration-300 hover:scale-125 hover:text-yellow-400;
   animation: float 3s infinite alternate ease-in-out;
 }
 
-/* 🎆 Animations */
+/* Animations */
 @keyframes neon-flicker {
   0% {
     text-shadow: 0 0 10px rgba(255, 215, 0, 0.8), 0 0 20px rgba(255, 215, 0, 0.6);

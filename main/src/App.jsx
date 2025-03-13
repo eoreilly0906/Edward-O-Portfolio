@@ -22,9 +22,10 @@ export default function App() {
   );
 }
 
+//Header component
 function Header() {
   return (
-    <header className="bg-gray-900 text-white p-4 flex justify-between items-center">
+    <header className="bg-gray-900 text-white p-4 flex justify-between items-center"> 
       <h1 className="text-2xl font-bold">Edward O'Reilly</h1>
       <nav>
         <ul className="flex space-x-4">
@@ -51,6 +52,7 @@ function Header() {
   );
 }
 
+//Footer component  
 function Footer() {
   return (
     <footer className="bg-gray-900 text-white p-4 flex justify-center space-x-4">

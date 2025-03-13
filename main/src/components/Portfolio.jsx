@@ -1,5 +1,5 @@
 import React from 'react';
-
+//Portfolio component
 function Portfolio() {
   const projects = [
     {
@@ -12,42 +12,42 @@ function Portfolio() {
     },
     {
       id: 2,
-      title: "Project 2",
-      description: "Description for project 2",
+      title: "AI Weather Person",
+      description: "Weather app that uses AI to predict the weather as Shaggy from Scooby Doo",
       liveDemo: "/Users/edwardoreilly/Desktop/Screenshot%202025-03-05%20at%201.35.46%E2%80%AFPM.png",
       github: "https://github.com/eoreilly0906/AI-Weather-Person",
       image: "/path-to-image.jpg"
     },
     {
       id: 3,
-      title: "Project 3",
-      description: "Description for project 3",
-      liveDemo: "#",
-      github: "#",
+      title: "It's The Journey",
+      description: "A build your own vehice project using typescript and Node.js",
+      liveDemo: "https://drive.google.com/file/d/1APmtAO9miZN6gbOwB1CC2CfI8XBZ4OR0/view",
+      github: "https://github.com/eoreilly0906/It-s-The-Journey",
       image: "/path-to-image.jpg"
     },
     // Add more projects as needed
-    {
-      id: 4,
-      title: "Project 4",
-      description: "Description for project 4",
-      liveDemo: "#",
-      github: "#",
-    },
-    {
-      id: 5,
-      title: "Project 5",
-      description: "Description for project 5",
-      liveDemo: "#",
-      github: "#",
-    },
-    {
-      id: 6,
-      title: "Project 6",
-      description: "Description for project 6",
-      liveDemo: "#",
-      github: "#",
-    }
+    // {
+    //   id: 4,
+    //   title: "Project 4",
+    //   description: "Description for project 4",
+    //   liveDemo: "#",
+    //   github: "#",
+    // },
+    // {
+    //   id: 5,
+    //   title: "Project 5",
+    //   description: "Description for project 5",
+    //   liveDemo: "#",
+    //   github: "#",
+    // },
+    // {
+    //   id: 6,
+    //   title: "Project 6",
+    //   description: "Description for project 6",
+    //   liveDemo: "#",
+    //   github: "#",
+    // }
   ];
 
   return (
