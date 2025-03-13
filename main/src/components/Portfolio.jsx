@@ -14,8 +14,8 @@ function Portfolio() {
       id: 2,
       title: "Project 2",
       description: "Description for project 2",
-      liveDemo: "#",
-      github: "#",
+      liveDemo: "/Users/edwardoreilly/Desktop/Screenshot%202025-03-05%20at%201.35.46%E2%80%AFPM.png",
+      github: "https://github.com/eoreilly0906/AI-Weather-Person",
       image: "/path-to-image.jpg"
     },
     {
