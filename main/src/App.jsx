@@ -56,7 +56,7 @@ function Header() {
 function Footer() {
   return (
     <footer className="bg-gray-900 text-white p-4 flex justify-center space-x-4">
-      <a href="https://github.com/edwardoreilly" className="text-xl">
+      <a href="https://github.com/eoreilly0906" className="text-xl">
         <FaGithub />
       </a>
       <a href="#" className="text-xl">
