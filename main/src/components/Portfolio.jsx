@@ -26,28 +26,30 @@ function Portfolio() {
       github: "https://github.com/eoreilly0906/It-s-The-Journey",
       image: "/path-to-image.jpg"
     },
-    // Add more projects as needed
-    // {
-    //   id: 4,
-    //   title: "Project 4",
-    //   description: "Description for project 4",
-    //   liveDemo: "#",
-    //   github: "#",
-    // },
-    // {
-    //   id: 5,
-    //   title: "Project 5",
-    //   description: "Description for project 5",
-    //   liveDemo: "#",
-    //   github: "#",
-    // },
-    // {
-    //   id: 6,
-    //   title: "Project 6",
-    //   description: "Description for project 6",
-    //   liveDemo: "#",
-    //   github: "#",
-    // }
+    {
+      id: 4,
+      title: "The Melt Down",
+      description: "A group project that uses HTML, CSS, and JavaScript to create a website for an Ice Cream Shop",
+      liveDemo: "https://pricilla-francis.github.io/Project-1/",
+      github: "https://github.com/eoreilly0906/project-1",
+      image: "/path-to-image.jpg"
+    },
+    {
+      id: 5,
+      title: "Read Me BOT 9000",
+      description: "A command line application that generates a README file using Node.js",
+      liveDemo: "https://drive.google.com/file/d/1DLgETY1Vb10H_f13qtVzQ0A0-TQlloYR/view",
+      github: "https://github.com/eoreilly0906/README-BOT-9000",
+      image: "/path-to-image.jpg"
+    },
+    {
+      id: 6,
+      title: "Rainy Days",
+      description: "A weather app that uses OpenWeather API to display weather information for a specific city",
+      liveDemo: "https://rainy-days.onrender.com/",
+      github: "https://github.com/eoreilly0906/Rainy-Days",
+      image: "/path-to-image.jpg"
+    }
   ];
 
   return (
